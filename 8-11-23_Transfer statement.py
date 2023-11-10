@@ -99,11 +99,5 @@ for i in range(100):
       pass
 print("abhi")
 
-l1=["A","B","c"]
-l2=["A","B","c"]
-print(l1==l2)
-
-s="this is gopi and my name is gopi"
-print(s.find('gopi',14,20))
 
   
