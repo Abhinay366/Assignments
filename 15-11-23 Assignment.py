@@ -1,20 +1,18 @@
 #Reverse a string program.
-##str1=input("enter the sentence:")
-#words=str1.split()
-#rev_words=words[::-1]
-#sen=" ".join(rev_words)
-#print(sen)
+str1=input("enter the sentence:")
+words=str1.split()
+rev_words=words[::-1]
+sen=" ".join(rev_words)
+print(sen)
 
-#Remove duplicates program.g
-#def remove_dup(string):
-   #lst=[]
-   #for char in string:
-     #if char not in lst:
-         #lst.append(char)
-   ##st="".join(lst)
-   #return st
-#s="ABCCCDDDEFGGGHHHIIJJJKLLABCDEF"
-#print(remove_dup(s))
+#Remove duplicates program.
+string = "ABCCCDDDEFGGGHHHIIJJJKLLABCDEF"
+p = ""
+for char in string:
+    if char not in p:
+        p = p+char
+print(p)
+k = list("ABCCCDDDEFGGGHHHIIJJJKLLABCDEF")
 
 s = "Abhinay"
 x = list(s)
